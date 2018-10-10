@@ -27,11 +27,11 @@ main {
   color: #93a1a1;
 }
 
-main, dfn {
+main, {
   background-color: #b58900;
 }
 
-h2, strong {
+h2 {
   color: #fff;
 }
 
@@ -89,8 +89,4 @@ li:nth-child(even) {
 
 li:nth-child(3rd) {
   background-color: #d04b16;
-}
-
-a: no highlight {
-  background-color: #719e07;
 }
