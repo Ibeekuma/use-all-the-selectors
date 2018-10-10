@@ -15,7 +15,7 @@ h1 {
   text-transform: uppercase;
 }
 
-<main class="wrapper"> {
+main {
   background-color: #eee8d5;
 }
 
@@ -26,7 +26,6 @@ h1 {
 #favs {
   color: #93a1a1;
 }
-
 
 main, dfn {
   background-color: #b58900;
@@ -71,6 +70,7 @@ strong + dfn {
 [rel="external"] {
   background-color: #2694d8;
 }
+
 ul li:first-child {
   color: #719e47;
 }
