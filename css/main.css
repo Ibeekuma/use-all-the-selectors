@@ -1,11 +1,12 @@
 body {
   background-color: #f2f6e3;
 }
-header,footer {
+
+header, footer {
   font-size: 1.5rem;
 }
 
-nav ul {
+ul {
   font-family:sans-serif;
   text-transform: uppercase;
 }
@@ -22,11 +23,11 @@ h2{
   color: #93a1a1;
 }
 
-main,dfn {
+main, dfn {
   background-color: #b58900;
 }
 
-h2,strong {
+h2, strong {
   color: #fff;
 }
 
@@ -38,14 +39,15 @@ link {
   background-color: #2694d8;
 }
 
-h1,ol,li {
+h1, ol, li {
   color: #719e47;
-}
-h2,ol,li{
+ }
+
+h2, ol, li{
   color: #2aa198;
 }
 
-h1,li {
+h1, li {
   background-color: #657ba3;
 }
 li {
