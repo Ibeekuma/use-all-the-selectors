@@ -1,7 +1,10 @@
 body {
   background-color: #f2f6e3;
+}
+header, footer {
   font-family: sans-serif;
-  line-height: 1.5;
+}
+
 }
 
 nav ul {
