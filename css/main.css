@@ -2,8 +2,20 @@ html {
   background-color: #fdf6e3;
 }
 
-header, footer {
+header {
   font-size: 1.5rem;
+}
+
+footer {
+  font-size: 1.5rem;
+}
+
+ul nav {
+  font-family: sans-serif;
+}
+
+h1 #logo {
+  text-transform: uppercase;
 }
 
 ul {
@@ -13,80 +25,61 @@ ul {
 
 h1 {
   text-transform: uppercase;
+  background-color: #fdf6e3;
 }
 
 main {
   background-color: #eee8d5;
 }
 
-#content {
-  color: #93a1a1;
-}
-
-#favs {
-  color: #93a1a1;
-}
-
-main, {
-  background-color: #b58900;
-}
-
 h2 {
-  color: #fff;
+  color: #93a1a1;
 }
 
 a {
   background-color: #719e07;
+  background-color: #fdf6e3;
 }
 
 a:link {
   background-color: #2694d8;
-}
-
-h1, ol, li {
-  color: #719e47;
+  background-color: #fdf6e3;
 }
 
 h2, ol, li {
   color: #2aa198;
-}
-
-h1, li {
-  background-color: #657ba3;
-}
-
-li {
-  background-color: #586e75;
-}
-
-ul > li {
-  background-color: #b58900;
-}
-
-strong + dfn {
-  color: #fff;
+  background-color: #fdf6e3;
 }
 
 [rel="external"] {
   background-color: #2694d8;
 }
 
-ul li:first-child {
+ol li:first-child {
   color: #719e47;
 }
 
-li:last-child {
+ol li:last-child {
   color: #2aa198;
 }
 
-li:nth-child(odd) {
+ol li:nth-child(odd) .types {
   background-color: #657ba3;
 }
 
-li:nth-child(even) {
+ol li:nth-child(even) .types {
   background-color: #586e75;
 }
 
-li:nth-child(3rd) {
+ol li:nth-child(3rd) .types {
   background-color: #d04b16;
+}
+
+.wrapper .strong {
+  background-color: #b58900;
+  background-color: #fdf6e3;
+}
+
+.dfn .strong {
+  color: #fff;
 }
