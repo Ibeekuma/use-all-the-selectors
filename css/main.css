@@ -15,13 +15,18 @@ h1 {
   text-transform: uppercase;
 }
 
-main {
+<main class="wrapper"> {
   background-color: #eee8d5;
 }
 
-h2 {
+#content {
   color: #93a1a1;
 }
+
+#favs {
+  color: #93a1a1;
+}
+
 
 main, dfn {
   background-color: #b58900;
@@ -35,7 +40,7 @@ a {
   background-color: #719e07;
 }
 
-link {
+a:link {
   background-color: #2694d8;
 }
 
@@ -53,4 +58,35 @@ h1, li {
 
 li {
   background-color: #586e75;
+}
+
+ul > li {
+  background-color: #b58900;
+}
+
+strong + dfn {
+  color: #fff;
+}
+
+[rel="external"] {
+  background-color: #2694d8;
+}
+ul li:first-child {
+  color: #719e47;
+}
+
+li:last-child {
+  color: #2aa198;
+}
+
+li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+li:nth-child(even) {
+  background-color: #586e75;
+}
+
+li:nth-child(3rd) {
+  background-color: #d04b16;
 }
