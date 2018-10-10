@@ -7,19 +7,19 @@ header, footer {
 }
 
 ul {
-  font-family:sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
 }
 
 h1 {
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 main {
   background-color: #eee8d5;
 }
 
-h2{
+h2 {
   color: #93a1a1;
 }
 
@@ -41,19 +41,16 @@ link {
 
 h1, ol, li {
   color: #719e47;
- }
+}
 
-h2, ol, li{
+h2, ol, li {
   color: #2aa198;
 }
 
 h1, li {
   background-color: #657ba3;
 }
-li {
-  background-color: #586e75;
-}
 
 li {
-  background-color: #d04b16;
+  background-color: #586e75;
 }
