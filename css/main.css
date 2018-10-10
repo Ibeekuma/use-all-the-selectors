@@ -47,10 +47,10 @@ h2,ol,li{
 h1, li {
   background-color: #657ba3;
 }
-li, even {
+li {
   background-color: #586e75;
 }
 
-li, 3rd {
+li {
   background-color: #d04b16;
 }
